@@ -4,11 +4,281 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etsy Page</title>
+    <link rel="stylesheet" href="nav.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div id="main-container"></div>
-    <div id="nav-bar"></div>
-    <div id="items-container"></div>
-    <div id="footer"></div>
+    <div id="page-container">
+      <!-- TOP OF PAGE (SEARHBAR & NAV-BAR) -->
+      <div id="top-container">
+        <a href="#">
+          <img
+            id="etsy-logo-top"
+            src="https://www.google.com/url?sa=i&url=http%3A%2F%2Ft1.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcQGSBGe07eUICLKPeQz9TMeGguRmspZvqi5OxUCTENJoOSRI7gR&psig=AOvVaw0RE-SvlgzXdXCoT40mozUV&ust=1599868994135000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNiu58rm3-sCFQAAAAAdAAAAABAD"
+          />
+        </a>
+        <!--SEARCHBAR-->
+        <div class="searchBar">
+          <input type="search" id="search" placeholder="whiskey" />
+          <p id="searchbar-x">✕</p>
+          <i id="search-icon" class="fa fa-search"></i>
+        </div>
+        <button id="signin" type="submit">Sign in</button>
+        <button id="cart-icon">
+          <i class="fa fa-shopping-cart"></i>
+        </button>
+      </div>
+      <!--NAV-BAR-->
+      <div id="nav-bar">
+        <nav>
+          <a class="nav-underline" href="#">Everyday Finds</a>
+
+<!-- TEST -->
+
+          
+          <div class="jewelerydropdown">
+            <a class="nav-underline" href="#">Jewelry & Accessories</a>
+              <div class="dropcontent">
+                <div class="accDropDown">
+                  <div class='acc-Flex'>
+                    <div class='wholeInterior'>
+                      <div class='left'>
+                        <a id="Accessories"href="#">Accessories <i class="fa fa-chevron-right"></i></a>
+                        <a href="#">Bags & Purses <i class="fa fa-angle-right"></i></a>       
+                        <a href="#">Necklaces <i class="fa fa-angle-right"></i></a>
+                        <a href="#">Rings <i class="fa fa-angle-right"></i></a>
+                        <a href="#">Earrings <i class="fa fa-angle-right"></i></a>
+                        <a href="#">Bracelets <i class="fa fa-angle-right"></i></a>
+                        <a href="#">Body Jewelry <i class="fa fa-angle-right"></i></a>
+                        <a href="#">All Jewelry <i class="fa fa-arrow-right"></i></a>
+                      </div>
+                      <div class='middle'>
+                        <a href="#">Hats & Caps</a>
+                        <a href="#">Beanies & Winter Hats</a>
+                        <a href="#" >Hair Accessories</a>
+                        <a href="#" >Headbands</a>
+                        <a href="#" >Fascinators & Mini Hats</a>
+                        <a href="#" >Wreaths & Tiaras</a>
+                        <a href="#">Sunglasses & Eyewear</a> 
+                      </div>  
+                      <!-- <div class="middle2">
+                        <a href="#">Hats & Caps 2</a>
+                        <a href="#">Beanies & Winter Hats 2</a>
+                        <a href="#" >Hair Accessories 2</a>
+                        <a href="#" >Headbands 2</a>
+                        <a href="#" >Fascinators & Mini Hats 2</a>
+                        <a href="#" >Wreaths & Tiaras 2</a>
+                        <a href="#">Sunglasses & Eyewear 2</a>
+                      </div> 
+                      <div class="middle3">     
+                          <a href="#">Hats & Caps 3</a>
+                          <a href="#">Beanies & Winter Hats 3</a>
+                          <a href="#" >Hair Accessories 3</a>
+                          <a href="#" >Headbands 3</a>
+                          <a href="#" >Fascinators & Mini Hats 3</a>
+                          <a href="#" >Wreaths & Tiaras 3</a>
+                          <a href="#">Sunglasses & Eyewear 3</a>
+                      </div> 
+                      <div class="middle4">
+                          <a href="#">Hats & Caps</a>
+                          <a href="#">Beanies & Winter Hats</a>
+                          <a href="#" >Hair Accessories</a>
+                          <a href="#" >Headbands</a>
+                          <a href="#" >Fascinators & Mini Hats</a>
+                          <a href="#" >Wreaths & Tiaras</a>
+                          <a href="#">Sunglasses & Eyewear</a>
+                      </div> 
+                      <div class="middle5">
+                          <a href="#">Hats & Caps</a>
+                          <a href="#">Beanies & Winter Hats</a>
+                          <a href="#" >Hair Accessories</a>
+                          <a href="#" >Headbands</a>
+                          <a href="#" >Fascinators & Mini Hats</a>
+                          <a href="#" >Wreaths & Tiaras</a>
+                          <a href="#">Sunglasses & Eyewear</a>
+                      </div> 
+                      <div class="middle6">
+                          <a href="#">Hats & Caps</a>
+                          <a href="#">Beanies & Winter Hats</a>
+                          <a href="#" >Hair Accessories</a>
+                          <a href="#" >Headbands</a>
+                          <a href="#" >Fascinators & Mini Hats</a>
+                          <a href="#" >Wreaths & Tiaras</a>
+                          <a href="#">Sunglasses & Eyewear</a>
+                      </div> 
+                      <div class="middle7">
+                          <a href="#">Hats & Caps</a>
+                          <a href="#">Beanies & Winter Hats</a>
+                          <a href="#" >Hair Accessories</a>
+                          <a href="#" >Headbands</a>
+                          <a href="#" >Fascinators & Mini Hats</a>
+                          <a href="#" >Wreaths & Tiaras</a>
+                          <a href="#">Sunglasses & Eyewear</a>
+                      </div>  -->
+                      <div class='right'>
+                          <img src="https://i.etsystatic.com/8595828/c/2068/1643/347/721/il/663a12/1888311329/il_340x270.1888311329_cctg.jpg">
+                          <p>Editor's Picks</p>
+                          <h5>Jewelry, handbags, and accessories<h5>
+                       </div>
+                    </div>   
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+
+
+<!-- TEST -->
+
+
+          <a class="nav-underline" href="#">Clothing & Shoes</a>
+          <a class="nav-underline" href="#">Home & Living</a>
+          <a class="nav-underline" href="#">Wedding & Party</a>
+          <a class="nav-underline" href="#">Toys & Entertainment</a>
+          <a class="nav-underline" href="#">Art & Collectibles</a>
+          <a class="nav-underline" href="#">Craft Supplies</a>
+          <a class="nav-underline" href="#">Gifts</a>
+        </nav>
+      </div>
+      <!-- MIDDLE OF PAGE (GRID) -->
+      <div id="grid-container">
+        <div id="filter-container">
+          <p class="filter">☰ Filters</p>
+          <p class="sort">↑↓ Sort by: Relevancy ▾</p>
+        </div>
+        <div id="results-container">
+          <p class="results">88,387 results, with Ads �</p>
+        </div>
+        <div id="items-container"></div>
+        <p class="discover">There's so much more for you to discover</p>
+        <div id="numbers">
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong id="left-arrow" class="fa-stack-1x text-primary">⭠</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i id="circle-one" class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">1</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">2</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">3</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">4</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">5</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">6</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">7</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">8</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong id="dots" class="fa-stack-1x text-primary">...</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">200</strong>
+          </span>
+          <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <strong class="fa-stack-1x text-primary">⭢</strong>
+          </span>
+        </div>
+      </div>
+      <!-- BOTTOM OF PAGE -->
+      <div id="footer">
+        <div class="lightBlueMountain">
+          <p>
+            Yes! Send me exclusive offers, unique gift ideas, and personalized
+            tips for shopping and selling on Etsy.
+          </p>
+          <div class="emailInput">
+            <input type="email" name="email" placeholder="Enter your email" />
+            <button id="subscribe" type="submit">Subscribe</button>
+          </div>
+        </div>
+        <div class="bottomLinks">
+          <div class="shop">
+            <h4>Shop</h4>
+            <a class="nowrap" href="#"><p class="underline">Gift cards</p></a>
+            <a class="nowrap" href="#"><p class="underline">Etsy blog</p></a>
+          </div>
+          <div class="sell">
+            <h4>Sell</h4>
+            <a class="nowrap" href="#"><p class="underline">Sell on Etsy</p></a>
+            <a href="#"><p class="underline">Teams</p></a>
+            <a href="#"><p class="underline">Forums</p></a>
+            <a href="#"><p class="underline">Affiliates</p></a>
+          </div>
+          <div class="about">
+            <h4>About</h4>
+            <a href="#"><p class="underline">Etsy, Inc.</p></a>
+            <a href="#"><p class="underline">Policies</p></a>
+            <a href="#"><p class="underline">Investors</p></a>
+            <a href="#"><p class="underline">Careers</p></a>
+            <a href="#"><p class="underline">Press</p></a>
+            <a href="#"><p class="underline">Impact</p></a>
+          </div>
+          <div class="help">
+            <h4>Help</h4>
+            <a href="#"><p class="underline">Help Center</p></a>
+            <a href="#"><p class="underline">Privacy Settings</p></a>
+            <i class="fa fa-etsy"></i>
+            <p class="download">Download the Etsy App</p>
+            <div class="socials">
+              <i class="social fa fa-instagram fa-2x"></i>
+              <i
+                class="social fa fa-facebook-square fa-2x"
+                aria-hidden="true"
+              ></i>
+              <i class="social fa fa-pinterest fa-2x"></i>
+              <i class="social fa fa-twitter fa-2x" aria-hidden="true"></i>
+              <i class="social fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="veryBottom">
+          <div class="language">
+            <a>United States</a>
+            <p>|</p>
+            <a>English(US)</a>
+            <p>|</p>
+            <a>$ (USD)</a>
+          </div>
+          <div class="legal">
+            <p>© 2020 Etsy, Inc.</p>
+            <a class="legal-btn">Terms of Use</a>
+            <a class="legal-btn">Privacy</a>
+            <a class="legal-btn">Interest-based ads</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="items.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>

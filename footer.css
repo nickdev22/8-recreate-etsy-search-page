@@ -1,0 +1,166 @@
+#footer {
+  width: 100%;
+  margin-top: 125px;
+  border-top: 4px solid #e1e3df;
+  padding-top: 45px;
+}
+.emailInput {
+  text-align: center;
+  height: 50px;
+}
+.emailInput input {
+  height: 100%;
+  width: 500px;
+  border-radius: 65px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid rgb(171, 168, 168);
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6);
+}
+.lightBlueMountain {
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: rgb(210, 223, 240);
+}
+.lightBlueMountain p {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: rgb(43, 42, 42);
+}
+.bottomLinks {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  background-color: rgb(52, 70, 103);
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  /* padding: 60px 60px 30px 60px; */
+}
+.bottomLinks a p {
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: 15px;
+}
+.shop,
+.sell,
+.about,
+.help {
+  padding-right: 260px;
+}
+.bottomLinks p,
+.bottomLinks h4 {
+  display: block;
+  color: white;
+  padding-left: 30px;
+}
+h4 {
+  font-weight: 500;
+}
+.veryBottom {
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgb(31, 31, 67);
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.language {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-left: 30px;
+}
+.legal {
+  display: flex;
+  flex-flow: row nowrap;
+  padding-right: 30px;
+}
+.veryBottom a,
+.veryBottom p {
+  display: block;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.language a {
+  font-weight: 400;
+  font-size: 13px;
+}
+.legal {
+  font-weight: 200;
+  font-size: 13px;
+}
+.legal a {
+  text-decoration: underline;
+}
+#subscribe {
+  border: none;
+  background: transparent;
+  position: relative;
+  top: 1px;
+  right: 110px;
+  font-size: 17px;
+  border-radius: 20px;
+  height: 46px;
+  width: 104px;
+}
+#subscribe:hover {
+  cursor: pointer;
+  background-color: #e7e7e7;
+}
+.download {
+  white-space: nowrap;
+  position: relative;
+  top: 20px;
+  left: 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  font-size: 12px;
+  width: 170px;
+}
+.fa-etsy {
+  position: relative;
+  top: 48px;
+  left: 40px;
+  color: rgb(52, 70, 103);
+  background-color: white;
+  width: 20px;
+  height: 20px;
+  padding: 2px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.download:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #ebebeb;
+}
+.socials {
+  position: relative;
+  top: 50px;
+  left: 33px;
+  white-space: nowrap;
+}
+.social {
+  margin-right: 11px;
+}
+.social:hover {
+  cursor: pointer;
+  color: grey;
+}
+.nowrap {
+  white-space: nowrap;
+}
+.underline:hover {
+  text-decoration: underline;
+}
+.language:hover {
+  cursor: pointer;
+}
+.legal-btn {
+  cursor: pointer;
+}

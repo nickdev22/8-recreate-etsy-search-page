@@ -1,0 +1,175 @@
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  box-sizing: border-box;
+}
+#top-container img input button {
+  display: block;
+}
+#top-container img {
+  width: 100px;
+  height: auto;
+  margin-left: 40px;
+  align-self: center;
+}
+#etsy-logo-top {
+  margin-top: -5px;
+}
+#top-container {
+  text-decoration: none;
+  font-weight: lighter;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: stretch;
+  margin-top: 10px;
+}
+.searchBar {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 1250px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+.searchBar input {
+  width: 90%;
+  height: 90%;
+  background-color: rgb(238, 236, 236);
+  border-radius: 70px;
+  border: 1px solid rgb(171, 168, 168);
+  padding-left: 15px;
+  align-self: center;
+}
+.searchBar input::placeholder {
+  color: black;
+  font-size: 16px;
+}
+#signin {
+  border-radius: 60px;
+  width: 75px;
+  height: 35px;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+  align-self: center;
+  background: transparent;
+  position: relative;
+  right: 80px;
+  bottom: 5px;
+}
+#signin:hover {
+  background-color: rgb(240, 237, 237);
+}
+#nav-bar {
+  padding: 3px 50px 0 24px;
+  border-bottom: 2px solid rgb(211, 209, 209);
+}
+#nav-bar a {
+  display: block;
+  font-weight: 100;
+  font-size: 13px;
+  margin-bottom: 0;
+  padding-bottom: 15px;
+}
+.nav-underline:hover {
+  border-bottom: 2px solid black;
+}
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+#searchbar-x {
+  position: relative;
+  top: 15px;
+  right: 80px;
+}
+#searchbar-x:hover {
+  cursor: pointer;
+  color: lightgrey;
+}
+#search-icon {
+  position: relative;
+  top: 12px;
+  right: 50px;
+  font-size: 20px;
+}
+#search-icon:hover {
+  cursor: pointer;
+  color: lightgrey;
+}
+#cart-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  align-self: center;
+  background: transparent;
+  position: relative;
+  right: 73px;
+  bottom: 5px;
+}
+#cart-icon:hover {
+  cursor: pointer;
+  background-color: rgb(240, 237, 237);
+}
+
+/* TEST */
+
+.jewelerydropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropcontent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 1200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropcontent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  min-width: 350px;
+}
+
+.dropcontent a:hover {
+  background-color: #ddd;
+}
+
+.jewelerydropdown:hover .dropcontent {
+  display: block;
+}
+
+.accDropDown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+}
+
+.acc-Flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.wholeInterior {
+  display: flex;
+}
+
+.left {
+  border: 1px solid #dedede;
+}
+
+.middle {
+  display: block;
+}

@@ -1,0 +1,133 @@
+#grid-container {
+  margin-top: 23px;
+  margin-right: 20px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+#filter-container {
+  display: flex;
+  margin-bottom: -30px;
+}
+.filter {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.filter:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #979797;
+}
+.sort {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 7px;
+  font-size: 14px;
+}
+.sort:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #979797;
+}
+#results-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.results {
+  margin-bottom: 25px;
+  margin-right: 30px;
+  font-size: 14px;
+  color: grey;
+}
+#items-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+.boxes {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 46px;
+  position: relative;
+}
+.boxes:hover {
+  cursor: pointer;
+}
+img {
+  margin-bottom: 5px;
+  width: 100%;
+  height: 205px;
+}
+.overlay {
+  position: absolute;
+  top: 5px;
+  bottom: 0;
+  left: 220px;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+.boxes:hover .overlay {
+  opacity: 1;
+}
+#heart {
+  background-color: white;
+  border-radius: 50%;
+  padding: 5px;
+}
+.boxes:hover > img {
+  box-shadow: 0px 0px 5px #979797;
+}
+.title {
+  margin: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.shop {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 1px;
+}
+.views {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 1px;
+}
+.price {
+  font-size: 18px;
+}
+.discover {
+  font-size: 18px;
+  margin-top: 10px;
+}
+#numbers {
+  margin-top: 20px;
+  margin-bottom: -100px;
+}
+.fa-circle {
+  color: #efefef;
+}
+.fa-stack:hover {
+  cursor: pointer;
+}
+.fa-stack:hover .fa-circle {
+  color: #dadada;
+}
+.fa-stack-1x {
+  font-size: 14px;
+}
+#left-arrow {
+  color: grey;
+}
+#dots {
+  color: grey;
+}
+#circle-one {
+  color: #a7a7a7;
+}
